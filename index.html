@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>柒遇｜三角洲陪玩護航</title>
+  <meta name="description" content="柒遇｜三角洲陪玩護航服務">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">柒遇 <span>｜三角洲陪玩護航</span></div>
+    <a class="nav-btn" href="#order">立即下單</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">專業陪玩・護航服務</p>
+        <h1>柒遇<br><span>三角洲陪玩護航</span></h1>
+        <p class="sub">純手動遊玩・透明價格・服務前確認</p>
+        <div class="actions">
+          <a class="btn primary" href="#plans">查看方案</a>
+          <a class="btn" href="#order">立即下單</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="crosshair">✦</div>
+        <h2>你的信任<br>是我們前進的動力</h2>
+        <p>下單前先確認服務內容與規則。</p>
+      </div>
+    </section>
+
+    <section id="plans" class="section">
+      <div class="section-title">
+        <p class="eyebrow">SERVICE PLANS</p>
+        <h2>護航方案</h2>
+      </div>
+      <div class="plans">
+        <article class="plan normal">
+          <h3>一般護</h3>
+          <div class="price">NT$500</div>
+          <p>至少清一把</p>
+          <a class="btn primary" href="#order">選擇方案</a>
+        </article>
+        <article class="plan gold">
+          <h3>黃金護</h3>
+          <div class="price">NT$550</div>
+          <p>至少清一把</p>
+          <p class="muted">其他條件可於下單前確認</p>
+          <a class="btn gold-btn" href="#order">選擇方案</a>
+        </article>
+        <article class="plan boss">
+          <h3>魔王護</h3>
+          <div class="price">NT$600</div>
+          <p>至少清兩把</p>
+          <p>必須有一把吃 400 萬</p>
+          <a class="btn boss-btn" href="#order">選擇方案</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="features">
+      <div><b>⚡ 純手動遊玩</b><small>不使用外掛或自動工具</small></div>
+      <div><b>🛡️ 安全保障</b><small>服務前確認規則</small></div>
+      <div><b>👁️ 透明價格</b><small>下單前確認費用</small></div>
+      <div><b>💬 快速回應</b><small>確認時間後開始服務</small></div>
+    </section>
+
+    <section id="order" class="section order">
+      <div class="section-title">
+        <p class="eyebrow">ORDER</p>
+        <h2>立即下單</h2>
+      </div>
+      <form id="orderForm">
+        <label>選擇方案
+          <select id="plan" required>
+            <option value="">請選擇</option>
+            <option>一般護｜NT$500</option>
+            <option>黃金護｜NT$550</option>
+            <option>魔王護｜NT$600</option>
+          </select>
+        </label>
+        <label>遊戲 ID
+          <input id="gameId" required placeholder="請輸入遊戲 ID">
+        </label>
+        <label>希望服務時間
+          <input id="time" required placeholder="例如：今晚 20:00">
+        </label>
+        <label>聯絡方式
+          <input id="contact" required placeholder="LINE / Discord 等">
+        </label>
+        <button class="btn primary" type="submit">送出訂單</button>
+        <p class="form-note">送出後會開啟你的聯絡方式頁面；正式營運前可再接上 Google 表單、LINE 或真正的訂單系統。</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>© 2026 柒遇｜三角洲陪玩護航</footer>
+  <script src="script.js"></script>
+</body>
+</html>
